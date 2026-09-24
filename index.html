@@ -2,46 +2,49 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
 <title>Silicon Photonics · Visual Companion</title>
 <meta name="description" content="An interactive visual companion to Silicon Photonics Design: From Devices to Systems — every chunk of the book with an annotated explainer diagram and its verbatim source text.">
 <meta property="og:title" content="Silicon Photonics · Visual Companion">
 <meta property="og:description" content="Every chunk of the book, paired with an explainer diagram generated from the physics — plus the verbatim source text.">
-<meta property="og:image" content="assets/og.png"><link rel="icon" href="assets/favicon.svg">
+<meta property="og:image" content="assets/og.png">
+<link rel="icon" href="assets/favicon.svg">
+<link rel="preload" href="fonts/inter-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
+<body class="landing">
 <div class="ambient"><i class="b1"></i><i class="b2"></i><i class="b3"></i><i class="b4"></i></div>
 
 <nav class="top">
-  <a class="brand" href="index.html"><span class="dot"></span>Silicon Photonics · Visual Companion</a>
+  <a class="brand" href="index.html"><span class="dot"></span><span class="bt">Silicon Photonics <span class="bt2">· Visual Companion</span></span></a>
   <div class="links">
-    <a href="#inside">Inside</a>
-    <a href="#chapters">Chapters</a>
-    <a class="btn btn-primary btn-sm" href="app.html">Open the companion</a>
+    <a class="hide-sm" href="#inside">Inside</a>
+    <a class="hide-sm" href="#chapters">Chapters</a>
+    <a class="btn btn-primary btn-sm" href="app.html" data-continue>Open the companion</a>
   </div>
 </nav>
 
 <header class="hero wrap">
   <div class="grid">
-    <div>
-      <span class="badgepill"><span class="bp-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 12h4l2.5-7 3.5 14 3-9 1.5 2h4"/></svg></span><b>Silicon Photonics Design</b>&nbsp;· interactive visual companion</span>
+    <div class="copy">
+      <span class="badgepill"><span class="bp-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 12h4l2.5-7 3.5 14 3-9 1.5 2h4"/></svg></span><b>Silicon Photonics Design</b><span class="hide-xs">&nbsp;· visual companion</span></span>
       <h1 class="display">Every figure,<br><span class="grad">explained from scratch.</span></h1>
-      <p class="lede">The complete visual companion to Chrostowski &amp; Hochberg's <i>Silicon Photonics Design</i>.
-      Every chunk of the book, paired with a beginner-friendly explainer diagram generated from the physics —
-      with the <b>verbatim source text alongside</b>, so nothing is skipped and nothing is left out.</p>
+      <p class="lede">Chrostowski &amp; Hochberg's <i>Silicon Photonics Design</i>, chunk by chunk: a beginner-friendly
+      diagram computed from the physics, with the <b>verbatim book text right beside it</b>. Nothing skipped.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="app.html">Open the companion</a>
-        <a class="btn btn-plain" href="#chapters">Explore chapters ›</a>
+        <a class="btn btn-primary" href="app.html" data-continue>Start reading <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-glass" id="resume" href="app.html" hidden>Continue · <span class="rs"></span></a>
+        <a class="btn btn-plain" href="#chapters">Browse chapters ›</a>
       </div>
-      <div class="mini">171 of 365 diagrams live · rebuilt automatically as the pipeline finishes the rest</div>
+      <div class="mini"><span class="live-dot"></span>176 of 365 sections live · the rest are being generated and reviewed now</div>
     </div>
-    <div class="visual"><div class="figfloat"><img src="figs/C089_focusing-grating-couplers.svg" alt="Compact design: focusing grating couplers"></div><span class="pill p1">vision-verified ✓</span><span class="pill p2">zoom to <b>12×</b></span><span class="pill p3">verbatim source text</span></div>
+    <a class="visual" href="app.html#s-C089" aria-label="Open this figure in the companion"><div class="figfloat"><img src="figs/C089_focusing-grating-couplers.svg" alt="Compact design: focusing grating couplers" width="799" height="597"></div><span class="pill p1">vision-verified ✓</span><span class="pill p2">zoom to <b>12×</b></span><span class="pill p3">verbatim source text</span></a>
   </div>
 </header>
 
 <div class="wrap"><div class="stats">
-  <div class="st"><b data-count="365">365</b><span>chunks</span></div>
+  <div class="st"><b data-count="365">365</b><span>sections</span></div>
   <div class="st"><b data-count="336">336</b><span>explainer diagrams</span></div>
   <div class="st"><b data-count="29">29</b><span>key-point cards</span></div>
   <div class="st hl"><b data-count="13">13</b><span>chapters</span></div>
@@ -51,39 +54,39 @@
   <div class="kicker reveal">Inside</div>
   <h2 class="sect reveal">Built for understanding,<br>not for skimming.</h2>
   <div class="feats"><div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2.5-7 3.5 14 3-9 1.5 2h4"/></svg></div><h3>Diagrams from first principles</h3><p>Every figure is computed from the physics in the text — solved equations, real dispersion, drawn to scale. Nothing is traced or copied.</p></div>
-<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13v16H4zM8 4v16M4 9h13"/></svg></div><h3>Verbatim source, side by side</h3><p>The exact text of every chunk, reproduced from the single-file edition with its line range cited, so you can cross-reference precisely.</p></div>
-<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="2.6"/></svg></div><h3>Vision-verified, independently</h3><p>Every figure passes an automated geometry check and an independent visual review for legibility, clipped labels and correctness before it ships.</p></div>
-<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M21 15v6h-6"/></svg></div><h3>Zoom into the detail</h3><p>Figures are vectors (SVG): scroll to zoom, drag to pan, go fullscreen. Labels stay razor-sharp at any scale.</p></div>
-<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg></div><h3>Search everything</h3><p>Full-text search across all sections — find every passage about detectors, gratings or ring modulators instantly.</p></div>
-<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.5L16.5 9"/></svg></div><h3>Track your progress</h3><p>Sections you finish are marked automatically and remembered on your device. The progress bar always knows where you are.</p></div></div>
+<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13v16H4zM8 4v16M4 9h13"/></svg></div><h3>Verbatim source, side by side</h3><p>The exact text of every chunk sits right under its diagram, with its place in the book cited, so you never lose the thread.</p></div>
+<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="2.6"/></svg></div><h3>Vision-verified, independently</h3><p>Every figure passes an automated geometry check and an independent visual review for legibility, clipped labels and correctness.</p></div>
+<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H3v6M15 3h6v6M9 21H3v-6M21 15v6h-6"/></svg></div><h3>Zoom into the detail</h3><p>Tap any figure to open the viewer: pinch or scroll to zoom, drag to pan. Figures are vectors, so labels stay razor-sharp.</p></div>
+<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg></div><h3>Search everything</h3><p>Press / and type — every passage about detectors, gratings or ring modulators, with the matching sentence highlighted.</p></div>
+<div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.5L16.5 9"/></svg></div><h3>Pick up where you left off</h3><p>Sections you finish are ticked off per chapter and remembered on your device. One tap takes you back to where you stopped.</p></div></div>
 </section>
 
 <section id="chapters" class="sec wrap">
   <div class="kicker reveal">The book</div>
   <h2 class="sect reveal">Thirteen chapters,<br>turned visual.</h2>
-  <div class="chgrid"><a class="chcard reveal" href="app.html#s-C001"><div class="top"><span class="num">•</span><span class="name">Silicon Photonics Design: From Devices to Systems</span></div><div class="meta">1 chunks · 0 diagrams · 1 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C002"><div class="top"><span class="num">•</span><span class="name">Front matter — Silicon Photonics Design</span></div><div class="meta">4 chunks · 0 diagrams · 4 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C033"><div class="top"><span class="num">3</span><span class="name">Optical materials and waveguides</span></div><div class="meta">32 chunks · 26 diagrams · 6 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C073"><div class="top"><span class="num">4</span><span class="name">Fundamental building blocks</span></div><div class="meta">46 chunks · 41 diagrams · 5 cards · 97% live</div><div class="bar"><i style="width:97%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C103"><div class="top"><span class="num">5</span><span class="name">Optical I/O</span></div><div class="meta">36 chunks · 31 diagrams · 5 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C124"><div class="top"><span class="num">6</span><span class="name">Modulators</span></div><div class="meta">24 chunks · 19 diagrams · 5 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C140"><div class="top"><span class="num">10</span><span class="name">Tools and techniques</span></div><div class="meta">17 chunks · 16 diagrams · 1 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C151"><div class="top"><span class="num">11</span><span class="name">Fabrication</span></div><div class="meta">12 chunks · 10 diagrams · 2 cards · 100% live</div><div class="bar"><i style="width:100%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C201"><div class="top"><span class="num">1</span><span class="name">Fabless silicon photonics</span></div><div class="meta">30 chunks · 30 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C241"><div class="top"><span class="num">2</span><span class="name">Modelling and design approaches</span></div><div class="meta">31 chunks · 31 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C290"><div class="top"><span class="num">7</span><span class="name">Detectors</span></div><div class="meta">37 chunks · 37 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C330"><div class="top"><span class="num">8</span><span class="name">Lasers</span></div><div class="meta">22 chunks · 22 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C370"><div class="top"><span class="num">9</span><span class="name">Photonic circuit modelling</span></div><div class="meta">25 chunks · 25 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C410"><div class="top"><span class="num">12</span><span class="name">Testing and packaging</span></div><div class="meta">33 chunks · 33 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a>
-<a class="chcard reveal" href="app.html#s-C450"><div class="top"><span class="num">13</span><span class="name">Silicon photonic system example</span></div><div class="meta">15 chunks · 15 diagrams · 0 cards · 0% live</div><div class="bar"><i style="width:0%"></i></div></a></div>
+  <div class="chgrid"><a class="chcard reveal" href="app.html#s-S1" data-ids="S1 C001 C002 C003 S508 C004 C005"><span class="num ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg></span><div class="body"><div class="name">Front matter</div><div class="meta">5 sections · 5 cards</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C201" data-ids="C201 C202 C203 C204 C205 C206 C207 C208 C209 C210 C211 C212 C213 C214 C215 C216 C217 C218 C219 C220 C221 C222 C223 C224 C225 C226 C227 C228 C229 C230"><span class="num">1</span><div class="body"><div class="name">Fabless silicon photonics</div><div class="meta">30 sections · 30 diagrams</div><div class="bar"><i style="width:17%"></i></div><div class="foot"><span class="live">17% live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C241" data-ids="C241 C242 C243 C244 C245 C246 C247 C248 C249 C250 C251 C252 C253 C254 C255 C256 C257 C258 C259 C260 C261 C262 C263 C264 C265 C266 C267 C268 C269 C270 C271"><span class="num">2</span><div class="body"><div class="name">Modelling and design approaches</div><div class="meta">31 sections · 31 diagrams</div><div class="bar"><i style="width:0%"></i></div><div class="foot"><span class="live">in production</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C006" data-ids="C006 C007a C007b C008 C009 C010a C010b C011 C012 C013 C014 C015 C016 C017 C018 C019 C020a C020b C021 C022 C023 C024 C025 C026 C027 C028a C028b S3457 C029 C030 C031 C032 S4214 C033"><span class="num">3</span><div class="body"><div class="name">Optical materials and waveguides</div><div class="meta">32 sections · 26 diagrams · 6 cards</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C034" data-ids="C034 C035 C036a C036b C036c C037 C038 C039 C040 C041a C041b C042 C043 C044 C045 C046 C047 C048 C049 C050 C051 C052 C281 C053 C054 C055 C056 C057 C058 C059a C059b C059c C060 C061 C062 C063 C064 C065 C066 C067 C068 C069 C070 C071 C072 S7376 C073"><span class="num">4</span><div class="body"><div class="name">Fundamental building blocks</div><div class="meta">46 sections · 41 diagrams · 5 cards</div><div class="bar"><i style="width:98%"></i></div><div class="foot"><span class="live">98% live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C074" data-ids="C074 C075 C076 C077 C078 C079 C080 C081 C082 C083 C084 C085a C085b C086 C087a C087b C088 C089 C090a C090b C091 C092 C093a C093b C094a C094b C094c C095 C096 C097 C098 C099 S8811 C100 C101 C102 S9932 C103"><span class="num">5</span><div class="body"><div class="name">Optical I/O</div><div class="meta">36 sections · 31 diagrams · 5 cards</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C104" data-ids="C104 C105 C106 C107 C108 C109 C110 C111 C112 C113 C114 C115a C115b C116 C117 C118a C118b C118c C119 C120 S11261 C121 C122 C123 S12219 C124"><span class="num">6</span><div class="body"><div class="name">Modulators</div><div class="meta">24 sections · 19 diagrams · 5 cards</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C290" data-ids="C290 C291 C292 C293 C294 C295 C296 C297 C298 C299 C300 C301 C302 C303 C304 C305 C306 C307 C308 C309 C310 C311 C312 C313 C314 C315 C316 C317 C318 C319 C320 C321 C322 C323 C324 C325 C326"><span class="num">7</span><div class="body"><div class="name">Detectors</div><div class="meta">37 sections · 37 diagrams</div><div class="bar"><i style="width:0%"></i></div><div class="foot"><span class="live">in production</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C330" data-ids="C330 C331 C332 C333 C334 C335 C336 C337 C338 C339 C340 C341 C342 C343 C344 C345 C346 C347 C348 C349 C350 C351"><span class="num">8</span><div class="body"><div class="name">Lasers</div><div class="meta">22 sections · 22 diagrams</div><div class="bar"><i style="width:0%"></i></div><div class="foot"><span class="live">in production</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C370" data-ids="C370 C371 C372 C373 C374 C375 C376 C377 C378 C379 C380 C381 C382 C383 C384 C385 C386 C387 C388 C389 C390 C391 C392 C393 C394"><span class="num">9</span><div class="body"><div class="name">Photonic circuit modelling</div><div class="meta">25 sections · 25 diagrams</div><div class="bar"><i style="width:0%"></i></div><div class="foot"><span class="live">in production</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C125a" data-ids="C125a C125b C126 C127 C128 S16036 C129 C130 C131 C132 C133 C134 C135 C136 C137 C138 C139 S16831 C140"><span class="num">10</span><div class="body"><div class="name">Tools and techniques</div><div class="meta">17 sections · 16 diagrams · 1 card</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C141" data-ids="C141 C142 C143 C144 C145 C146a C146b C147 C148 C149 C150"><span class="num">11</span><div class="body"><div class="name">Fabrication</div><div class="meta">11 sections · 10 diagrams · 1 card</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C410" data-ids="C410 C411 C412 C413 C414 C415 C416 C417 C418 C419 C420 C421 C422 C423 C424 C425 C426 C427 C428 C429 C430 C431 C432 C433 C434 C435 C436 C437 C438 C439 C440 C441 C442"><span class="num">12</span><div class="body"><div class="name">Testing and packaging</div><div class="meta">33 sections · 33 diagrams</div><div class="bar"><i style="width:0%"></i></div><div class="foot"><span class="live">in production</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C450" data-ids="C450 C451 C452 C453 C454 C455 C456 C457 C458 C459 C460 C461 C462 C463 C464"><span class="num">13</span><div class="body"><div class="name">Silicon photonic system example</div><div class="meta">15 sections · 15 diagrams</div><div class="bar"><i style="width:0%"></i></div><div class="foot"><span class="live">in production</span><span class="mine"></span></div></div></a>
+<a class="chcard reveal" href="app.html#s-C151" data-ids="C151"><span class="num ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg></span><div class="body"><div class="name">Back matter</div><div class="meta">1 section · 1 card</div><div class="bar"><i style="width:100%"></i></div><div class="foot"><span class="live full">all live</span><span class="mine"></span></div></div></a></div>
 </section>
 
 <section id="showcase" class="sec wrap">
   <div class="kicker reveal">Sample figures</div>
   <h2 class="sect reveal">A look at the diagrams.</h2>
-  <div class="show"><div class="shot reveal"><img src="figs/C089_focusing-grating-couplers.svg" alt="Compact design: focusing grating couplers" loading="lazy"><div class="cap"><b>C089 · Compact design: focusing grating couplers</b><br>5.2 Grating coupler › 5.2.3 Design methodology</div></div>
-<div class="shot reveal"><img src="figs/C013_span-convergence.svg" alt="Convergence testing: simulation span" loading="lazy"><div class="cap"><b>C013 · Convergence testing: simulation span</b><br>3.2.4 1D slab – numerical › Convergence tests</div></div>
-<div class="shot reveal"><img src="figs/C094c_taper-length-optimization.svg" alt="Taper-length optimization of coupling efficiency" loading="lazy"><div class="cap"><b>C094c · Taper-length optimization of coupling efficiency</b><br>5.3 Edge coupler › 5.3.1 Nano-taper edge coupler</div></div></div>
+  <div class="show"><a class="shot reveal" href="app.html#s-C089"><div class="im"><img src="figs/C089_focusing-grating-couplers.svg" alt="Compact design: focusing grating couplers" loading="lazy" width="799" height="597"></div><div class="cap"><b>C089 · Compact design: focusing grating couplers</b><span>5.2 Grating coupler › 5.2.3 Design methodology</span></div></a>
+<a class="shot reveal" href="app.html#s-C013"><div class="im"><img src="figs/C013_span-convergence.svg" alt="Convergence testing: simulation span" loading="lazy" width="799" height="655"></div><div class="cap"><b>C013 · Convergence testing: simulation span</b><span>3.2.4 1D slab – numerical › Convergence tests</span></div></a>
+<a class="shot reveal" href="app.html#s-C094c"><div class="im"><img src="figs/C094c_taper-length-optimization.svg" alt="Taper-length optimization of coupling efficiency" loading="lazy" width="799" height="597"></div><div class="cap"><b>C094c · Taper-length optimization of coupling efficiency</b><span>5.3 Edge coupler › 5.3.1 Nano-taper edge coupler</span></div></a></div>
 </section>
 
 <footer>
