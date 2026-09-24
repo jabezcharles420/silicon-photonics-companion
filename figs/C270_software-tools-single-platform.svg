@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="676.8pt" viewBox="0 0 792 676.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T20:01:48.848101</dc:date>
+    <dc:description>house-style-v1</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style id="house-fonts" type="text/css">@font-face{font-family:'Inter';font-weight:400;font-style:normal;src:url(data:font/woff2;base64,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) format('woff2')}@font-face{font-family:'Inter';font-weight:400;font-style:italic;src:url(data:font/woff2;base64,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) format('woff2')}@font-face{font-family:'Inter';font-weight:700;font-style:normal;src:url(data:font/woff2;base64,d09GMgABAAAAABq4AA8AAAAAPFQAABpZAAQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGkwbpwIcjEAGYD9TVEFUWgCBdhEICrckrUkBNgIkA4NEC4FkAAQgBYEkByAbkDWjop60WqksooqyIvlnQjZkqG8Ui2EVxJTSoV0NARGr3knd/mAxvekHOR6hsU9yeR5+3P+3ju77MGeczSSqTYRCmtDAPKGQSb77CLZ5DxiFM3rhdMOJ2FO0ARVURBFhNrSiGCgo1hRjc1O3uSxdhnNhrpyLYlmuwlX5v7r0/zsl8QkMISgATARbpz5bCiApKvi20giIc3kEPCjxPTe/uOcBJbZESjjWBTKW/nG3/xr/p8ts958MkoIbXF9wg1g0wNgUoy9Zp/F4nj0yrU7es3xAprVD6+DuHiweEHb0eqAgcAtY1C76a8qkKFO1VDQp05Xxl5/LR/p42JDNIsH6f74br91LQW998Eb4BAl2hSASiu0ey7MQDq70W7ZOV4B5AFTGEHuIIw+IJy/IdNMhgciQKNEQhlhICi4kVRqkSDEEAXOE4cMde3wCFxwvrywtAMLVpTIFEG4QqYuAAAfImAJ9XRvU668sLQL80mAL1IpLX3TV54D+glcwDGEY2wdxhgPmCqFEkShNDqVyNRqsgJjA0WfAmBk8cwQ+2CQQYXpgpWcFSbTk2QuDnZ4arqjYJj7jb1BJDIqa2wkpbh5xBQaztMFHa6pNCQLTKJaB/2D3Mk8nzLxpcGDeI/PTeJgCirrBCbDccdyu3zKQe7R/IYAMbXwrjb1ARmT3WrScvUij06MsMg9AisX0FcJJL6ZzdPeiy5QVOeSCWJ+9qjLA2RLK3wNbcuXHHXmniX7DGNif0fD6efig8o38ALsB6WdHf2D5ohzn0wVH7gG21SPmrD39VLJ/NDfYXHtTLjEHdsUENi3QlkOMVG2AxdHm0TR5ZCLCl6MH4p385EUrRSBL2TdzTifwic6kHRVSuAxos/N3nZ4nZOwM2OCJUL5E2jP3N0WnEC7mQ/Nla8Zb7pNhIf/loX4fO7m9K7a3H7HhWUTEzPPO3HGKFrUG4nvJFkUolxbkbphs6PTuBmmziAkdx6kTL9ahaADkGpEB0UHnDe2n/d50KDpaRuPRUzG8o0W8lBIdzvR3dwlHH6dEB0koZ3xWqMr1Dodvg4tG+CaLtUmL3p02kJ2t2bWR3nx9/p6WgegO+/r8kZz/eDvOyUvOJfVQ9EhjPoWvthnk6rSG0jiEiJYPIXTkuTDd+Ede9kLMcIOSEIH4Q0090bZn3rKr5Jcz1hGqcjqEk3iYngvDYOpRVLQZShsz0eLTxiyq0WfadxOUhJLsHfxfB7bnm+1whueaLFunuQJ+bxcg+Zd4a8UxubPdrfCPXwCUpJfvxZsHP/48xSS/N4bfR/znyRdLEj/JeAKkShUiXYZQWUTCSUhFyZEnBoLksYKjzxlYxBroxjNnxpgTSxgIAgo7tjAMgMUAtd5RM2JCD5YhB/YM4blz4wjsMA1gDwIA35jDzMvUhhrANlPJ1EjznM1cQCcmPkE2mqhroihdPB8OMiT0FrSAp88wRIBewqZAS7GJYVjH1IgeA4asWTI0zmQTTAI2mQis58oFgK/IMBeJmlMDWGs8mRrJhK3qJLoPW7GSsYk6trAJo4dcsCR6c7AIHnu5J8IBcwSKxZFFTkyuSBE1xJgPX37YsmTjExCSwyEBF+cqofST55tqwEkCC/PSfvIOO51QfejQzLQMyojPvtDP2ANTOXCgvticWbAw0WPBv90+DfXrs2+w3TYm1vAIfvlTIIxcNXL8L5CzeLq0TX8criahN6OpWu0QES7AozF9bTqJF/vECnaD5fpZlfWUhZHm9kHWz5GxngM2C/MdyePMBXkI8sy0lvTHWFnhgsgDiee8w3RrMRjisSRKkozzkgl446fLCDUTzThSg7nk8toTUeCZwtTdmzADjKGJwsdfoQMXCJjNOIHGmTDAgjg42CbXEDKyeyozRkz8poxh9ljDK2phzC0En/URZ88Z9GEY4VgZm8Y3gHkJt6kYhuFfvN2aJTwwBzrmKK4z69Sp6ivedvIksJdfWqAG6xuKJQXgeEdRWSE4AwWWOd3A2vHYlNpH2Cin3wVqnMKWCHbACXBOJQEzSOlVlpwwmRtmyZH4eB3mAWoKi3Eo63KwywxKi3Qbdt9nZIyIJaywS06pLevKnjJYrpSn5Xs1xUyp9JpWC2pDXVW76kib0kIapxW0Oe1AG26P2+9u28V9NixQWMNgmw4BHYKIYCEREGuIY5Wm04PB4JgBC8PaeKg5ggwYlpH9IuIQttVe96cIqt/ZocG1AiHLzh+p1WtpEGI5/0o3/UaD4Mf5x8YzaEQIjix10AKWfFjLGIgNm59dfwKxYXOurCNAbNhMq+sl6Cj4Plztho7Ch5DioEJkn7KHFUACxzJhdzRWlAcToWK4+wZTIuT4IlQ/PdhCugpcBpL0oiuu2EOgMNhLulq9gkEJHBgwUq8RIOcNjPBNtzZ83A1X2J3RyJuGIQ3JEBfdDaObMtMOvWCHDlmL0wYnmNLpNUdNjwwq86oaEeIZHOUng4GDmAN7hDHHxuaiWDFXD6nESDUY45nxAp5mACeiP4+izGh6XjudiJRcfhetcVfdX+qc7rs4v2n+GyCltbCep6BcPmhGnb5h0BA+KGV8A7tAJ3LhFIrAeMzhwAIaFtwE2WGIFYDOx8GXcC5oOQ5eUxaCBbMgYqROBKWgkF6HoXe7DRn3NotUuhwKYoWKySFIKivjDszwbCKIQeIPhzPD077T+Hq2kDaXIOIG88vyEAYUoDCE4chY7hCNNAljbohtfjUijDddgEBkQYKFCBWGiiZKtBh0DLHixAsXIRIF86JKExp6Zx7G6VlYuREBMStSUnYW7os93GDWXnpgHNovAi/y3dUP9Nf1Lyi9BqDCPQIasAkAZ5/DSoENpmwTGQxOLcGsT+oYG/SLhk7fYApBHXPBMvZh2wdz8y2qKhQE7r5arkYI0LV3iAoQBYY+SxMhoJZgeKBAoBxee4EGA1OoAAWggp0ztLy6OE+BAzjDwZuCwEuQEHRxWNi4ZkiTKVsepSqHNzk4T5i8aIZobIwW/zQ+ELUrUxLOjiIKpTAehO4E8WVWR2Zn+tObnhzL0RzJ4fzMj+wF2Ztdn0c9pj68fd8MEMCet0IYifefnJRAOiFHTiaYaBJnCMqYhUBRAvAlcDWYWQgw92RQHgDlHoA5EAwEQbCQYIoIPZsrJWMcy4vluJb4pcvujNEM7ZSYHceIRsUUDJiHMPXVao7AN6GE8Mw7L5PPyt94lNCs9tAWuW5hIVlu2VPmZBe4swrcOcSb5RaQLELIvEEmz81dQHi39ozSEk6WR1lTVtLM2dM9Td2LR6wN3placcEJPZrswtLCQq5t44yDQKqQA6uMiKhPkV+TAkMGFKXCBikgF0xAtGN/8WhxvCy992UY9zfbh5dAwM9RBN0LAKFB9i0m/3Txod7hUUEC4wFMbv2pEMpjQnPDjAd2xCm7hIIYV7RF33HTqk0Mz6owIlIeEKdTabZ1LAdUqOYkXpyp9HwsNLlOPGNnxK0SxjCitJrXnqKLX7LEcEDENFjzSmlMWQkJZ1/UCqmOcrRGi1pjy3M6RUfP3hdJkXhDsV4upRBNZlwKkmMcsSVYREIP4WEwB7jFY86EqEloQFOu6sQ4M2AhXGgpvf+BaKXEOGpe+XSElrEbpef68oa9tMljMqpeo+g9D6WNKXYE1yAc6R0AZUfggQWez5BWjyEcsefl6y6iwI0g7DbGQiAUkAuAoLhApbyKZ6s/RafO59TkBgNS4v0uZBlCc6Q3clYErwLgFs+HMInq1l4M2Khj9Yl/aQt5gTWwd727bDp6BGUhC0rNGM4eCivsh1Rrd5FJcmqFCM/w0SpnsRei2qKsTbTT9kh/LVpVx87SHtGKONqsqscjxsVWV0P4hGCxk8yqczpDhREw54xuxMhIHajCYmj2WpPIJa6sZwlYwsoQ31VK/T207CrwjFncvkpY4dh9j4PnrEpCGv0xQ5DQoDx5Fq9k6yXiyOkTRl0zeMUBTK1qWePreGnwCrVZUs66/M5jiXjaX2M7dnAJ8DV9v0KtPM3vp08nzD6s1w9zhGNoowfD4ECPYVpek0w95/WQ5Fc2msdofbSJ4VBqlHPCNoRiuuDAfA4nzrKfnlJk9Oqm8BRWVQkCfCtVaFiEtoOnOapiQhMiL9tp4zPllrNnFNDGQ2HYCaaWwrjE7RTz3mmDNuZExu8SXBRb4eIkFivxEiTcS4N0IJsYejCxbFrc4NfQdP3c44EWA8QWDDQfTYowHWytf/GIVyBbWCKPrC7ursQHSUOoGvCkVaT8M8bNpEioSct/wIqBagYVyAxFoQ+qZ+pYdQqJ6oZEsvYTtB5KHWPWIOaAmVB6XJqgq8qXTY0qqGTld5bfI2RFX1XQvG+BLVr8clOyLajHBr9VVWipHvHlEaya8uADUBe9fQlcOfVhkrZJNaL3vn7/5sT+/99F9vevKz5/WuX7LewVfv2iex8PJcb/+dNItcwifuYOWD+aybth/cVL0c4N6ibTbEfUAQUiBwa1g2MDQIGmPSZzaDCyjrzHlA1juWJwQ3c7oTNFSKmLfLx1NgzUmU67sF19XJRC8HW2Hgo62MX7/OXQjOCDp+ru0rc3K06NqwlYE8Tn0gpdKOq9KsH9dRtF93YXqygFLjNoQYKdASY54r7OpU94sKjeQNV+Qia6sXWL+PqgbEGNwfzHtAO7E1693s2KOeB0Qwd6Ot8qoLms5Pm/LnndrzpN97+utV3/17lB9EsUBk6zQO9RLtvWk5PamtcWxSnYWaa+NYewGDt+K8v1qvWWEAuPrh98RnBtIhH2vdFI6yZGd34kLHfb67J5V+hOl02bVoSVH9/vvOm+lP4DPtiF2G3YHcC0suR47vPa7N7y7ns/+t3/zn2O12bvfTZce2Bgt+N2YBb5DYAv2/p0yMFu3ucv3TN04PRQ8MHAl8/dvOjTePUupeD++o1CEFCrdpcENqwX3NOFuKsxO95ra54uXlL7+FPtrvLvMfwKSkgJk0nNleH8ezfB7ram5s7ixbXXPyl3tfxI52v8QqXxCaE5FQGH/2aY5m9mlmyGbTYHDQsX38KuddeLZ0nrfTmcCq8oXrB/WHSJb7Jl57RezxunOprbz/4t7tj8TTl3GDW4GaTPEZWyCj2CWX5kWmwB6cNs52zrjYxKOW0Bv7l5GBUCruvGv+P/ztzwuwGhzpt1Ke8vEZtT6T7Had4nU6KnNT+/lDzpuQ78CSrFK1dVkrjjlyc9ROkjv5V8yzc3tMSTvvlXhsu1iPtTFyvzL5Hn+6VOS9zgs9490T9t3Q0yHLbJ3xYvXFKcHT2znLnMjWMgNCofJ52i5+NGZbkEh/Bc0k9aeo4XzmoeYtRkbifOTk9ckDM6frVxZ3pirSfSMfLJoYLQyrMCqsmvhtwU17teHsfiJ8CoZebM8MSMBPxBN9DTkXyMmAnZMyMFNRfrqsYGjmngYtP9T4n5vMDlYnHg0jxeEkvBIS/JkQUtU6SAymb71/YmzK49TZiv7dslW/3rBSlzzXm2/q1To9l0Bw92AS9wpUwauKIgle3BcCydyqix9TNPS2mpl2zzB3vL+ktNGjg2UD12sa5GMDOSle1h7EMCPZ3bQfOwxIyZ4fApQZFCXibLCVyi4LCS8nkBS8XiwOX5PKiw2fmjtQnt392IHV3YWdQXs6CNfa2du7PXvtU3dbpWTk9kFTDIVUmzRJRGNTUxgDfh3G9zP8fMWS3DTPAa4T+/+9yUy+/S8Nd2JsoZatutAU+muE+MDqKE7oDio62X6fXV9omI8XCHaGqsqkFefMkujJlSNT2z9mJZ1ejRvpp/l+pq+HURifxQs1433vKW4S/iFbtZ+UzyfKmEvDg/mZWUzw1cLBQHzlewYOfs5ondRUKrvUfrgRXz1buk/N7GM6TF8vwyQSTuSWAuaPkkPiyg53kW7s586sO4h4Ll6uYnvR6+/rIfHE/rerX1V88Wb2PrkCOtbw5nVi5e4bLe1T5f2bKKxsvdkJ61reoz6aggJ5MZxPEhpYbucznOEQpZAVxvn6yoTcI08p1wtpbWKe2UCnqpbLZ9W1Wi2bYVVvfsuultb9mKtIBVIknASkUqm52finKJyPqm89OgbiPog1svfu+U1h+t2TLiva47Qm9XLd/lpOnE3PY8vl10tGkg08AlujAkTE6vgVCb5ssJjYssc229bViFrCyehOJHopNj8YNuG53Xr5tZULbqasr8puOxmllWGUZehsJYTrwk3N+DEpxoPrz2gq1dUlFUt+lxJhC7+M+XP19pRJoc8JRscfsL8fFEsYnntv2dKwGEevdmbK8o41NEtjx+lv4csbYWHm1dy6HH4RQ/sidqcoHfA8dyikO574PJBUejQh2u8yHPehM/VLjGvigYZ7fWxWFluJ5jiWyNtXiNgzIc57jaxW5VIM6hRLgm0voU37d6jwXFdc3kDgt6wDi6S4fr2knVe4C47wC8XrkkWrrPm5ewzS2pdFoic7svT74vYuPyl/t30ap1PtzE7dNYKgIrfrs3t1oHmtboJ7ED2WbzUqsdo0XCLbuQeM9JQ3fUBNx3LTh5eDomdD2dnJ7XuJahDMsdBxXdhN2Gtp/jZwzWGDp9BsUwGEgr5LcWcuD2e032W/Uadc3jfh6dN8PoUG+vcfc83ujnNq5xV+/frFoN7VnnJtrzWk1WZl0FdWRTJ/VZnQa8vqx/704bcz/Zxb6AmvvmH6KoWfk+OWFRoYJc/6iYXDI5N27Kwqabb9Wr1r1VNpyuT6Fs3DK8ovXxA5PyP7DIquN3UftppPV3o3FKPOnxxX6RmeERtOzq6aktz1riivzC08JCAnhCHypV4UVNMSKg2raTo4XLVz4vru1Tz1y1tdrORGG2JJu5MLt24WlQgtRwlPAlfZldPb/cVP39oSFHT2E9CfR0oLJa+UHZchpbS3SnpOX5RDJLaVRNUhKtSh3FiqqaPt7CG6fCz/47d2qFYdmaGKFsB2NmQ8xBxbKWlz+bYKdVyTXmlm0iu4u9KW5rLz9QzF38pLTlhFkVyTKxPCNNPFsVdX2x8WSKMnuhT3LTpSrNnbblra9/NG0ZjVfRoyoSmFSNih5PznanxxEE5DhqhToW9hNOXTDW/bUAwogOVlptRYWL+iqyuWva5Rl4o3L7xYerVLO6XucuW/omd3aXqmrpYZW9URq+Xc5bk12xqA9TuOUJqyQwUkyhUaWlIfHxpcFUaRQlQqQiM1dTxP5BmaFh5HSxL5Uq9iWnh4WSMyX+sNSq919XHW90VDvj76He3r/dba+W97crR2eUKUOe7twd8kwHMjLKleW7d1oEi4b9Pz7+sJJt9D8xzWbVo2JNjyqD3lxbygly6nlmec7Fn8GIIlEnhxN9fYS8PDKFZOURFtceTlctiO8QKiQ7usRVmp387HWiGJ/K1NwL3ncvRKSFBgWkCEiU5NWM2qb4I8o/LaG3c9dSfRN8k2lXI2EbfwtNpoqL19gxVuWyA5nLGr0MZZ7JPXa1uoYTQLPl9Em9PA3qlwUyc9iMVbZMjSqOmrP5aeOJmVfgkC0YRL8aOQN6NWdGQGYb09fOLYK/y/2PWz6CcUrOYcWFVEVAukWaI4FnGScRx0m+6KGJgZyM+Y+pnfMJfQLKlZhAV+HRnkArSeC4o0ePHO+C5EgP3Gu1dHq/TrgVaqBGuL0TQwxaDI+//X/NtZy/FSTdJQgdsT2R4lKFUZ9bf16w/kLZuUpcIfveW5sTvGHhaL8bLgg2nFefq8YQersAxSduU+erlzE53EKeKNa+K7fYRoP3q/hY4afBF1vLuwZbcheoeK9fbeq8cR3SMfNfdbZlAcpq63j1qq0TZWdBZ9urVx12EdS0dW7cAVnEuumX54dkFe5377pXyIaGKnLuEmcCayhFa4j37hE1sjND4txzJyIaLKWfogXpFAqevuhoYRqVIkwvDtDfwQGYUP6k7+AEzBCWxsru+uC5BJrq9Z/q/Ynqs0z1/V/1O1r2/5e8FMzK4n/NZeHbdAd0Sm0yUF90t7jSsT7RNsSc5CmlcjaoKZtd7r/GpIuki6SLCK5sAOkOAZc2Oo70UyBbfm5/P2keWp4kWYQ+5H0N+uRPxpc4UgpwkQpAJEEmMIP6chMYUlbPrHLaZHw6WZ9gLMblQP124maUfuK67f1JXal7glLgWZC1fm6iD/n4r0sFLaS2DpiuZzPhqBr0l0NZhv//iWdAy1hmtt5eANwGyuuTKbSgPTV0tKC/Nl4Q5F0fTv1ooP/o0RKL7iPIpDqCefAqTzduK2hahr2ekOd9OVGiDbkTFVutkdpu+roOTjyJAJVwiw+YvngSUcLwtWoElXCLDxi++KhCLe/by3ofclXejSawFKcv61y/MG3dZ+gArx/OW3Pd75v6Ty953tv7e9vDqCcmraIAmdAN6yAHkm6trSqbXxPY3HLamJ6uDh9uSjO9E//4wva8r1gcUcvOyXoGcrXzsEUO+0+qH+nP7HS/D/WfBWD55PYYYP9/KdM3FOqvaSvoRwxdxnJ3xv7DX2n7X2khoKO98rfvgTrzsN8NsYYA+PKu5nbAtx+O3AZrMrcCwcIAFPDrIQRzNwSUaUAmyG7u1kEpseMt/jijud8X3wG5RsrjuNxnyzNqMSFGfN5iUPFQwvFGKub45eDxin/fLHqYgLYfkqwJ5H6qVfNmPfBz5B+PVA+l0CJsk7Gxtq2QZ1g4bvdXeJpNaalttcT6gbWxv37BpMlFkxxiv6rdpSp43z0ZflPJHkZQNIgkI4+s/7Zuzg+/b8UcAfiDJEtgP2hBADQogUyYF0yvBEEF8qLmbCuI+C0z3iCvVRaqqVjKf5kwt/3qIZTccLAdEAXdmXP6uvZr0zvXGpuVzvFRi+oumoNtD4wih6vtNFfYK20YEodnOgro25psYN+rr9f6F1QQ3Cp2EWxYSMZq3/5nZMBC3QgM9fbeEAJThqkBYzsHsWcNwfmknSlMTX91qIxR0BQrIJVKJk8uObUkSmp5JEQKOEuRp4qMr+nupnHUCPUr4yhWSKQIFsC0T78MAAAA) format('woff2')}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 676.8 
+L 792 676.8 
+L 792 0 
+L 0 0 
+z
+" style="fill: #0f0f0f"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.2 198 
+L 306 198 
+L 306 61.2 
+L 25.2 61.2 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #1c1c1e; stroke: #2c2c2e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 25.2 468 
+L 306 468 
+L 306 208.8 
+L 25.2 208.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #1c1c1e; stroke: #2c2c2e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.8 468 
+L 766.8 468 
+L 766.8 61.2 
+L 316.8 61.2 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #1c1c1e; stroke: #2c2c2e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 25.2 612 
+L 766.8 612 
+L 766.8 478.8 
+L 25.2 478.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #1c1c1e; stroke: #2c2c2e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 36 175.68 
+L 161.28 175.68 
+L 161.28 93.6 
+L 36 93.6 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #2c2c2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 169.92 175.68 
+L 295.2 175.68 
+L 295.2 93.6 
+L 169.92 93.6 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #2c2c2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 36 312.48 
+L 295.2 312.48 
+L 295.2 240.48 
+L 36 240.48 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #64d2ff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 36 385.92 
+L 295.2 385.92 
+L 295.2 321.12 
+L 36 321.12 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #30d158; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 36 459.36 
+L 295.2 459.36 
+L 295.2 394.56 
+L 36 394.56 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #ff9f0a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 327.6 459.36 
+L 756 459.36 
+L 756 102.24 
+L 327.6 102.24 
+L 327.6 459.36 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke-dasharray: 2.2,2.2; stroke-dashoffset: 0; stroke: #a1a1a6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 369.36 201.6 
+L 725.04 201.6 
+Q 730.8 201.6 730.8 195.84 
+L 730.8 115.2 
+Q 730.8 109.44 725.04 109.44 
+L 369.36 109.44 
+Q 363.6 109.44 363.6 115.2 
+L 363.6 195.84 
+Q 363.6 201.6 369.36 201.6 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #202022; stroke: #ffe08a; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 36 603.36 
+L 255.6 603.36 
+L 255.6 508.32 
+L 36 508.32 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #2c2c2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 266.4 603.36 
+L 507.6 603.36 
+L 507.6 508.32 
+L 266.4 508.32 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #2c2c2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 518.4 603.36 
+L 756 603.36 
+L 756 508.32 
+L 518.4 508.32 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #2c2c2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 25.2 653.76 
+L 766.8 653.76 
+L 766.8 623.52 
+L 25.2 623.52 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #2c2c2e; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 376.56 195.12 
+L 540 195.12 
+Q 545.76 195.12 545.76 189.36 
+L 545.76 138.24 
+Q 545.76 132.48 540 132.48 
+L 376.56 132.48 
+Q 370.8 132.48 370.8 138.24 
+L 370.8 189.36 
+Q 370.8 195.12 376.56 195.12 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #30d158; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 561.6 195.12 
+L 717.84 195.12 
+Q 723.6 195.12 723.6 189.36 
+L 723.6 138.24 
+Q 723.6 132.48 717.84 132.48 
+L 561.6 132.48 
+Q 555.84 132.48 555.84 138.24 
+L 555.84 189.36 
+Q 555.84 195.12 561.6 195.12 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #ff9f0a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 383.76 277.2 
+L 512.64 277.2 
+Q 518.4 277.2 518.4 271.44 
+L 518.4 239.76 
+Q 518.4 234 512.64 234 
+L 383.76 234 
+Q 378 234 378 239.76 
+L 378 271.44 
+Q 378 277.2 383.76 277.2 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #64d2ff; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 581.76 259.2 
+L 725.04 259.2 
+Q 730.8 259.2 730.8 253.44 
+L 730.8 224.64 
+Q 730.8 218.88 725.04 218.88 
+L 581.76 218.88 
+Q 576 218.88 576 224.64 
+L 576 253.44 
+Q 576 259.2 581.76 259.2 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #64d2ff; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 581.76 325.44 
+L 725.04 325.44 
+Q 730.8 325.44 730.8 319.68 
+L 730.8 290.88 
+Q 730.8 285.12 725.04 285.12 
+L 581.76 285.12 
+Q 576 285.12 576 290.88 
+L 576 319.68 
+Q 576 325.44 581.76 325.44 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #64d2ff; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 383.76 342 
+L 512.64 342 
+Q 518.4 342 518.4 336.24 
+L 518.4 304.56 
+Q 518.4 298.8 512.64 298.8 
+L 383.76 298.8 
+Q 378 298.8 378 304.56 
+L 378 336.24 
+Q 378 342 383.76 342 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #64d2ff; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 383.76 406.8 
+L 512.64 406.8 
+Q 518.4 406.8 518.4 401.04 
+L 518.4 369.36 
+Q 518.4 363.6 512.64 363.6 
+L 383.76 363.6 
+Q 378 363.6 378 369.36 
+L 378 401.04 
+Q 378 406.8 383.76 406.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #64d2ff; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 383.76 450.72 
+L 512.64 450.72 
+Q 518.4 450.72 518.4 444.96 
+L 518.4 423.36 
+Q 518.4 417.6 512.64 417.6 
+L 383.76 417.6 
+Q 378 417.6 378 423.36 
+L 378 444.96 
+Q 378 450.72 383.76 450.72 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #161618; stroke: #d291bc; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 54.72 127.8 
+C 56.152097 127.8 57.525731 127.231022 58.538377 126.218377 
+C 59.551022 125.205731 60.12 123.832097 60.12 122.4 
+C 60.12 120.967903 59.551022 119.594269 58.538377 118.581623 
+C 57.525731 117.568978 56.152097 117 54.72 117 
+C 53.287903 117 51.914269 117.568978 50.901623 118.581623 
+C 49.888978 119.594269 49.32 120.967903 49.32 122.4 
+C 49.32 123.832097 49.888978 125.205731 50.901623 126.218377 
+C 51.914269 127.231022 53.287903 127.8 54.72 127.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #64d2ff"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 65.52 141.12 
+C 65.52 138.25676 64.381369 135.507863 62.356753 133.483247 
+C 60.332137 131.458631 57.58324 130.32 54.72 130.32 
+C 51.85676 130.32 49.107863 131.458631 47.083247 133.483247 
+C 45.058631 135.507863 43.92 138.25676 43.92 141.12 
+L 54.72 141.12 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #64d2ff"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 74.88 124.56 
+L 100.08 124.56 
+L 100.08 113.76 
+L 74.88 113.76 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #a1a1a6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 103.68 124.56 
+L 128.88 124.56 
+L 128.88 113.76 
+L 103.68 113.76 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #a1a1a6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 132.48 124.56 
+L 157.68 124.56 
+L 157.68 113.76 
+L 132.48 113.76 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #a1a1a6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 74.88 139.68 
+L 100.08 139.68 
+L 100.08 128.88 
+L 74.88 128.88 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #a1a1a6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 103.68 139.68 
+L 128.88 139.68 
+L 128.88 128.88 
+L 103.68 128.88 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #a1a1a6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 132.48 139.68 
+L 157.68 139.68 
+L 157.68 128.88 
+L 132.48 128.88 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #a1a1a6; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 46.8 280.08 
+L 111.6 280.08 
+L 111.6 266.4 
+L 46.8 266.4 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #64d2ff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 131.76 280.08 
+L 196.56 280.08 
+L 196.56 266.4 
+L 131.76 266.4 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #64d2ff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 216.72 280.08 
+L 281.52 280.08 
+L 281.52 266.4 
+L 216.72 266.4 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #2c2c2e; stroke: #64d2ff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="25.2" y="31.68" transform="rotate(-0 25.2 31.68)">C270 · 2.8 Software tools integration: one platform for the whole flow</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="25.2" y="47.52" transform="rotate(-0 25.2 47.52)">Ch 2 — Modelling and design approaches · §2.8 (book pp. 42–43) · Figure 2.6</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="36" y="77.76" transform="rotate(-0 36 77.76)">1 · The problem: many necessary tools</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="43.2" y="108" transform="rotate(-0 43.2 108)">designer</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="87.48" y="121.32" transform="rotate(-0 87.48 121.32)">tool</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="116.28" y="121.32" transform="rotate(-0 116.28 121.32)">tool</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="145.08" y="121.32" transform="rotate(-0 145.08 121.32)">tool</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="87.48" y="136.44" transform="rotate(-0 87.48 136.44)">tool</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="116.28" y="136.44" transform="rotate(-0 116.28 136.44)">tool</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="145.08" y="136.44" transform="rotate(-0 145.08 136.44)">tool</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="155.52" transform="rotate(-0 43.2 155.52)">must learn &amp; understand</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="168.48" transform="rotate(-0 43.2 168.48)">numerous tools</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ff9f0a" x="177.12" y="108" transform="rotate(-0 177.12 108)">organization</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ff6961" x="177.12" y="125.28" transform="rotate(-0 177.12 125.28)">$  increased expense</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="177.12" y="141.12" transform="rotate(-0 177.12 141.12)">operation challenge:</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="177.12" y="154.08" transform="rotate(-0 177.12 154.08)">administering the tools</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="177.12" y="167.04" transform="rotate(-0 177.12 167.04)">and the data flow</text>
+   </g>
+   <g id="text_18">
+    <text style="font-style: italic; font-size: 7.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="36" y="190.08" transform="rotate(-0 36 190.08)">The electronics industry has faced this for years ↓</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="36" y="225.36" transform="rotate(-0 36 225.36)">2 · Electronics’ two answers (met it “in part”)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="43.2" y="254.88" transform="rotate(-0 43.2 254.88)">① Interoperability &amp; data exchange</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="79.2" y="276.12" transform="rotate(-0 79.2 276.12)">vendor A</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="164.16" y="276.12" transform="rotate(-0 164.16 276.12)">vendor B</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #f6f6f6" x="249.12" y="276.12" transform="rotate(-0 249.12 276.12)">vendor C</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="293.76" transform="rotate(-0 43.2 293.76)">tools from different vendors exchange data →</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="305.28" transform="rotate(-0 43.2 305.28)">customize &amp; optimize the flow for the application</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.9px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #a1a1a6" x="289.44" y="252" transform="rotate(-0 289.44 252)">aided by standards</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.9px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #a1a1a6" x="289.44" y="261.36" transform="rotate(-0 289.44 261.36)">organizations</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #30d158" x="43.2" y="335.52" transform="rotate(-0 43.2 335.52)">② Common operating system</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="350.64" transform="rotate(-0 43.2 350.64)">simplifies the communication between tools</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="365.04" transform="rotate(-0 43.2 365.04)">EDA world (electronic design automation):</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #30d158" x="43.2" y="379.44" transform="rotate(-0 43.2 379.44)">dominated by Linux</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ff9f0a" x="43.2" y="408.96" transform="rotate(-0 43.2 408.96)">→ so for silicon photonics</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7.4px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="422.64" transform="rotate(-0 43.2 422.64)">will ultimately need electronic + photonic co-design</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="434.88" transform="rotate(-0 43.2 434.88)">→ desirable: all tools on one platform (Linux)</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="43.2" y="446.4" transform="rotate(-0 43.2 446.4)">OSX / Windows versions can help for one task</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="43.2" y="455.76" transform="rotate(-0 43.2 455.76)">(e.g. passive component design)</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="327.6" y="77.76" transform="rotate(-0 327.6 77.76)">3 · The book’s tool chain on one platform (Figure 2.6)</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="327.6" y="92.88" transform="rotate(-0 327.6 92.88)">redrawn from the book — schematic; arrows as drawn in Fig. 2.6</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ffe08a" x="374.4" y="123.12" transform="rotate(-0 374.4 123.12)">Component Models</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #30d158" x="378" y="145.44" transform="rotate(-0 378 145.44)">Photonic Component Design</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="378" y="162.72" transform="rotate(-0 378 162.72)">• Lumerical MODE</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="378" y="178.56" transform="rotate(-0 378 178.56)">• Lumerical FDTD</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="463.68" y="162.72" transform="rotate(-0 463.68 162.72)">• Lumerical DEVICE</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="463.68" y="178.56" transform="rotate(-0 463.68 178.56)">• Matlab</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ff9f0a" x="563.04" y="145.44" transform="rotate(-0 563.04 145.44)">RF Microwave Design</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="563.04" y="162.72" transform="rotate(-0 563.04 162.72)">• ANSYS HFSS</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="563.04" y="178.56" transform="rotate(-0 563.04 178.56)">• Agilent ADS</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="385.2" y="247.68" transform="rotate(-0 385.2 247.68)">Schematic Capture</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="385.2" y="266.4" transform="rotate(-0 385.2 266.4)">• Mentor Graphics Pyxis</text>
+   </g>
+   <g id="text_50">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="583.2" y="232.56" transform="rotate(-0 583.2 232.56)">Optical Circuit Simulations</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="583.2" y="248.4" transform="rotate(-0 583.2 248.4)">• Lumerical INTERCONNECT</text>
+   </g>
+   <g id="text_52">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="583.2" y="298.8" transform="rotate(-0 583.2 298.8)">Electrical Circuit Simulations</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="583.2" y="314.64" transform="rotate(-0 583.2 314.64)">• Mentor Graphics ELDO</text>
+   </g>
+   <g id="text_54">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="385.2" y="312.48" transform="rotate(-0 385.2 312.48)">Physical Layout</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="385.2" y="331.2" transform="rotate(-0 385.2 331.2)">• Mentor Graphics Pyxis</text>
+   </g>
+   <g id="text_56">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="385.2" y="377.28" transform="rotate(-0 385.2 377.28)">Verification</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="385.2" y="396" transform="rotate(-0 385.2 396)">• Mentor Graphics Calibre</text>
+   </g>
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #d291bc" x="385.2" y="429.84" transform="rotate(-0 385.2 429.84)">Testing</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 7.3px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="385.2" y="443.52" transform="rotate(-0 385.2 443.52)">• Matlab, kLayout</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 7px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #a1a1a6" x="732.96" y="379.44" transform="rotate(-0 732.96 379.44)">arrows back to Component Models</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 7px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #a1a1a6" x="750.96" y="434.88" transform="rotate(-0 750.96 434.88)">Linux EDA: Mentor Graphics · optics: Lumerical</text>
+   </g>
+   <g id="text_62">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #f6f6f6" x="750.96" y="451.44" transform="rotate(-0 750.96 451.44)">* Single platform (Linux)</text>
+   </g>
+   <g id="text_63">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="36" y="494.64" transform="rotate(-0 36 494.64)">4 · Other flows, the book’s fewest-tools rule, and why one platform pays off</text>
+   </g>
+   <g id="text_64">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #64d2ff" x="43.2" y="522" transform="rotate(-0 43.2 522)">Other full design flows</text>
+   </g>
+   <g id="text_65">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="537.12" transform="rotate(-0 43.2 537.12)">Luxtera</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="112.32" y="537.12" transform="rotate(-0 112.32 537.12)">Linux, within Cadence</text>
+   </g>
+   <g id="text_67">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="551.52" transform="rotate(-0 43.2 551.52)">IPKISS [53]</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="112.32" y="551.52" transform="rotate(-0 112.32 551.52)">all 3 platforms · Python</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="112.32" y="563.04" transform="rotate(-0 112.32 563.04)">also via a web browser</text>
+   </g>
+   <g id="text_70">
+    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="43.2" y="577.44" transform="rotate(-0 43.2 577.44)">PhoeniX</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="112.32" y="577.44" transform="rotate(-0 112.32 577.44)">Windows</text>
+   </g>
+   <g id="text_72">
+    <text style="font-style: italic; font-size: 7px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="43.2" y="594.72" transform="rotate(-0 43.2 594.72)">“have been, and are being, developed”</text>
+   </g>
+   <g id="text_73">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #30d158" x="273.6" y="522" transform="rotate(-0 273.6 522)">The book’s rule: fewest tools</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="273.6" y="536.4" transform="rotate(-0 273.6 536.4)">one tool for as many functions as possible</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="273.6" y="550.08" transform="rotate(-0 273.6 550.08)">FDTD, most general passive tool →</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="282.24" y="561.6" transform="rotate(-0 282.24 561.6)">most photonic device design,</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ff9f0a" x="282.24" y="573.12" transform="rotate(-0 282.24 573.12)">at the expense of computation time</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="273.6" y="586.08" transform="rotate(-0 273.6 586.08)">mask layout: the same tool for schematic,</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="282.24" y="597.6" transform="rotate(-0 282.24 597.6)">layout, design-rule + layout-vs-schematic checks</text>
+   </g>
+   <g id="text_80">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #ff9f0a" x="525.6" y="522" transform="rotate(-0 525.6 522)">One machine + one OS: the payoff</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="525.6" y="536.4" transform="rotate(-0 525.6 536.4)">✓ simpler admin (updates, revision control)</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="525.6" y="548.64" transform="rotate(-0 525.6 548.64)">✓ all files easily accessible by all tools</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="525.6" y="560.88" transform="rotate(-0 525.6 560.88)">✓ collaborative design with multiple users</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 7.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="525.6" y="573.12" transform="rotate(-0 525.6 573.12)">✓ remote desktops (VNC, NX) across locations</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="525.6" y="586.08" transform="rotate(-0 525.6 586.08)">OpSIS foundry service offered a remote server:</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 7.2px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #a1a1a6" x="525.6" y="597.6" transform="rotate(-0 525.6 597.6)">design software + process design kit (PDK)</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 8.6px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #f6f6f6" x="36" y="641.88" transform="rotate(-0 36 641.88)">Takeaway: many tools burden designers and organizations → like electronics, run the whole photonic + electronic flow on one platform (Linux).</text>
+   </g>
+   <g id="line2d_1">
+    <path d="M 378 385.2 
+L 352.8 385.2 
+L 352.8 187.2 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 378 434.16 
+L 340.56 434.16 
+L 340.56 168.48 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 518.4 385.2 
+L 743.76 385.2 
+L 743.76 158.4 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 121.68 273.24 
+Q 116.083469 273.24 111.6 273.24 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 115.6 275.8 
+L 111.6 273.24 
+L 115.6 270.68 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #64d2ff; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 121.68 273.24 
+Q 127.276531 273.24 131.76 273.24 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 127.76 270.68 
+L 131.76 273.24 
+L 127.76 275.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #64d2ff; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 206.64 273.24 
+Q 201.043469 273.24 196.56 273.24 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 200.56 275.8 
+L 196.56 273.24 
+L 200.56 270.68 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #64d2ff; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_39">
+    <path d="M 206.64 273.24 
+Q 212.236531 273.24 216.72 273.24 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 212.72 270.68 
+L 216.72 273.24 
+L 212.72 275.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #64d2ff; stroke: #64d2ff; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 547.2 244.8 
+Q 532.197092 244.8 518.4 244.8 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 523.4 248 
+L 518.4 244.8 
+L 523.4 241.6 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_41">
+    <path d="M 547.2 244.8 
+Q 562.202908 244.8 576 244.8 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 571 241.6 
+L 576 244.8 
+L 571 248 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 547.2 283.68 
+Q 532.260742 276.210371 518.4 269.28 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 521.441052 274.378235 
+L 518.4 269.28 
+L 524.303219 268.653901 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_43">
+    <path d="M 547.2 283.68 
+Q 562.139258 291.149629 576 298.08 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 572.958948 292.981765 
+L 576 298.08 
+L 570.096781 298.706099 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_44">
+    <path d="M 448.2 277.2 
+Q 448.2 288.602908 448.2 298.8 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 451.4 293.8 
+L 448.2 298.8 
+L 445 293.8 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_45">
+    <path d="M 448.2 342 
+Q 448.2 353.402908 448.2 363.6 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 451.4 358.6 
+L 448.2 363.6 
+L 445 358.6 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_46">
+    <path d="M 352.8 187.2 
+Q 358.802908 187.2 363.6 187.2 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 358.6 184 
+L 363.6 187.2 
+L 358.6 190.4 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_47">
+    <path d="M 340.56 168.48 
+Q 352.682908 168.48 363.6 168.48 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 358.6 165.28 
+L 363.6 168.48 
+L 358.6 171.68 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_48">
+    <path d="M 743.76 158.4 
+Q 736.677092 158.4 730.8 158.4 
+" clip-path="url(#pd73908f4a0)" style="fill: none; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 735.8 161.6 
+L 730.8 158.4 
+L 735.8 155.2 
+z
+" clip-path="url(#pd73908f4a0)" style="fill: #a1a1a6; stroke: #a1a1a6; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd73908f4a0">
+   <rect x="14.4" y="14.4" width="763.2" height="648"/>
+  </clipPath>
+ </defs>
+</svg>
