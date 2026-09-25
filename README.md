@@ -25,6 +25,6 @@ An interactive visual companion to *Silicon Photonics Design: From Devices to Sy
 
 ## Notes
 
-- 303 of 365 sections are live at the time of this build; the rest are marked *in production* and the site is
+- 315 of 365 sections are live at the time of this build; the rest are marked *in production* and the site is
   rebuilt as the pipeline finishes them.
 - Book text is reproduced verbatim for study purposes; it remains © its authors.
