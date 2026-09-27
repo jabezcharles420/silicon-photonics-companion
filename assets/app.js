@@ -11,6 +11,14 @@
   var cur = -1, query = '';
   var chapOf = {};
   CHAPTERS.forEach(function (c, ci) { c.items.forEach(function (i) { chapOf[i] = ci; }); });
+  // book section number: numeric prefix of the last numbered heading in spath (e.g. "3.1.2")
+  var bnum = SECTIONS.map(function (s) {
+    var p = s.spath || [];
+    for (var i = p.length - 1; i >= 0; i--) { var m = /^(\d+(?:\.\d+)*)/.exec(p[i]); if (m) return m[1]; }
+    return '';
+  });
+  var bnumIndex = {};
+  bnum.forEach(function (b, i) { if (b && bnumIndex[b] === undefined) bnumIndex[b] = i; });
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
@@ -45,8 +53,9 @@
     var s = SECTIONS[i];
     var st = readSet.has(s.id) ? '<span class="st ok" title="Read">✓</span>' :
       (s.pend ? '<span class="st pd" title="Figure in production"></span>' : '<span class="st"></span>');
+    var bn = '<span class="bn">' + (bnum[i] ? esc(bnum[i]) : '') + '</span>';
     return '<a class="item' + (i === cur ? ' active' : '') + (s.src ? ' src' : '') + '" href="#s-' + esc(s.id) + '" data-i="' + i + '">' +
-      '<span class="iid">' + esc(s.id) + '</span><span class="it">' + esc(s.title) + (snippet || '') + '</span>' + st + '</a>';
+      '<span class="iid">' + esc(s.id) + '</span><span class="it">' + esc(s.title) + (snippet || '') + '</span>' + bn + st + '</a>';
   }
 
   function buildSidebar() {
@@ -73,13 +82,15 @@
 
   function buildResults(side) {
     buildPlain();
-    var q = query.toLowerCase(), words = q.split(/\s+/).filter(Boolean);
+    var q = query.toLowerCase().replace(/§/g, ''), words = q.split(/\s+/).filter(Boolean);
+    var bq = q.replace(/\s+/g, '');
     var hits = [];
     SECTIONS.forEach(function (s, i) {
-      var title = (s.id + ' ' + s.title).toLowerCase(), body = plain[i].toLowerCase();
+      var title = (s.id + ' ' + (bnum[i] ? bnum[i] + ' ' : '') + (s.spath ? s.spath.join(' ') + ' ' : '') + s.title).toLowerCase(), body = plain[i].toLowerCase();
       var all = words.every(function (w) { return title.indexOf(w) !== -1 || body.indexOf(w) !== -1; });
       if (!all) return;
       var score = words.reduce(function (a, w) { return a + (title.indexOf(w) !== -1 ? 10 : 0) + Math.min(5, body.split(w).length - 1); }, 0);
+      if (bq && bnumIndex[bq] === i) score += 1000;   // exact book-number query: that section ranks first
       hits.push({ i: i, score: score });
     });
     hits.sort(function (a, b) { return b.score - a.score || a.i - b.i; });
@@ -287,11 +298,17 @@
     window.scrollTo(0, 0);
   }
 
+  function bnumIndexFor(x) {
+    var k = String(x).replace(/\s+/g, '').replace(/^§/, '');
+    return k && bnumIndex[k] !== undefined ? bnumIndex[k] : -1;
+  }
   function route() {
     var m = location.hash.match(/^#s-(.+)$/);
     if (m) {
       var id = decodeURIComponent(m[1]);
       for (var i = 0; i < SECTIONS.length; i++) if (SECTIONS[i].id === id) { show(i); return; }
+      var bi = bnumIndexFor(id);
+      if (bi >= 0) { show(bi); return; }   // friendly book-number deep link; hash is left as typed
     }
     var last = store('vc_last'), idx = 0;
     if (last) for (var j = 0; j < SECTIONS.length; j++) if (SECTIONS[j].id === last) { idx = j; break; }
