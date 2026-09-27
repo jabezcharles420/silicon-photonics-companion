@@ -53,9 +53,8 @@
     var s = SECTIONS[i];
     var st = readSet.has(s.id) ? '<span class="st ok" title="Read">✓</span>' :
       (s.pend ? '<span class="st pd" title="Figure in production"></span>' : '<span class="st"></span>');
-    var bn = '<span class="bn">' + (bnum[i] ? esc(bnum[i]) : '') + '</span>';
-    return '<a class="item' + (i === cur ? ' active' : '') + (s.src ? ' src' : '') + '" href="#s-' + esc(s.id) + '" data-i="' + i + '">' +
-      '<span class="iid">' + esc(s.id) + '</span><span class="it">' + esc(s.title) + (snippet || '') + '</span>' + bn + st + '</a>';
+    return '<a class="item' + (i === cur ? ' active' : '') + (s.src ? ' src' : '') + '" href="#s-' + esc(s.id) + '" data-i="' + i + '" title="' + esc(s.id) + '">' +
+      '<span class="iid">' + (bnum[i] ? esc(bnum[i]) : '') + '</span><span class="it">' + esc(s.title) + (snippet || '') + '</span>' + st + '</a>';
   }
 
   function buildSidebar() {

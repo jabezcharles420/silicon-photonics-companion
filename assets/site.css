@@ -289,14 +289,13 @@ body.app { font-size: 16px; }
 .cbar i { display: block; height: 100%; background: var(--green); border-radius: 2px; transition: width 0.4s var(--ease); }
 .chap .items { display: none; padding: 0 0 8px; }
 .chap.open .items { display: block; }
-a.item { display: grid; grid-template-columns: 48px minmax(0, 1fr) 40px 14px; gap: 6px; align-items: baseline;
+a.item { display: grid; grid-template-columns: 48px minmax(0, 1fr) 14px; gap: 6px; align-items: baseline;
   padding: 7px 10px 7px 8px; border-radius: 9px; color: var(--text-2); font-size: 13px; line-height: 1.38;
   transition: background 0.15s var(--ease), color 0.15s var(--ease); }
 a.item:hover { background: rgba(255, 255, 255, 0.06); color: var(--text); text-decoration: none; }
 a.item.active { background: var(--blue-dim); color: var(--text); }
 a.item.active .iid { color: var(--blue-hi); }
 a.item .iid { font-family: var(--mono); font-size: 10.5px; color: var(--text-3); text-align: right; }
-a.item .bn { font-family: var(--mono); font-size: 10.5px; color: var(--text-3); text-align: right; }
 a.item.src .it { font-style: italic; color: var(--text-3); }
 a.item .st { width: 14px; font-size: 11px; color: var(--green); text-align: center; }
 a.item .st.pd::after { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--orange); opacity: 0.8; }
